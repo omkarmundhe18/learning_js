@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Example 1 - Change text</h3>
+    <h1 id="title">Hello Its Omkar</h1>
+    <button onclick="changeText()">Change Text</button>
+    <script>
+        function changeText(){
+            document.getElementById('title').innerHTML = 'I am form Pune'
+        }
+    </script>
+
+    <hr>
+    <h3>change image using DOM</h3>
+    <img src="img/js_01.jpeg" width="300">
+    <button onclick="changeimage()">change image</button>
+    <script>
+        function changeimage(){
+            document.getElementById('myimg').src="img/js_02.png"
+        }
+    </script>
+</body>
+</html>
